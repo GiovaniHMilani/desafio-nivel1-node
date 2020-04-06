@@ -52,7 +52,7 @@ Aplicação para armazenar repositórios do seu portfólio, que irá permitir a 
 
 ```js
 {
-  ":id": "ID for the repository",
+  ":id": "Repository ID",
   "body": {
     "title": "Desafio NodeJS",
     "techs": ["Node.js"],
@@ -63,12 +63,12 @@ Aplicação para armazenar repositórios do seu portfólio, que irá permitir a 
 ##### DELETE - /repositories/:id
 ```js
 {
-  ":id": "ID for the repository",
+  ":id": "Repository ID",
 }
 ```
 ##### POST - /repositories/:id/like
 ```js
 {
-  ":id": "ID for the repository",
+  ":id": "Repository ID",
 }
 ```
